@@ -14,6 +14,7 @@
 		4EE4DFF11F294DF700216F3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EE4DFEF1F294DF700216F3A /* LaunchScreen.storyboard */; };
 		4EE4DFFC1F294DF700216F3A /* NurikabeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE4DFFB1F294DF700216F3A /* NurikabeTests.swift */; };
 		4EE4E0071F294DF700216F3A /* NurikabeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE4E0061F294DF700216F3A /* NurikabeUITests.swift */; };
+		4EE4E0151F2A5DCD00216F3A /* PuzzleMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE4E0141F2A5DCD00216F3A /* PuzzleMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4EE4E0021F294DF700216F3A /* NurikabeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NurikabeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EE4E0061F294DF700216F3A /* NurikabeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NurikabeUITests.swift; sourceTree = "<group>"; };
 		4EE4E0081F294DF700216F3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EE4E0141F2A5DCD00216F3A /* PuzzleMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzleMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				4EE4DFE61F294DF700216F3A /* AppDelegate.swift */,
 				4EE4DFE81F294DF700216F3A /* ViewController.swift */,
+				4EE4E0141F2A5DCD00216F3A /* PuzzleMapView.swift */,
 				4EE4DFEA1F294DF700216F3A /* Main.storyboard */,
 				4EE4DFED1F294DF700216F3A /* Assets.xcassets */,
 				4EE4DFEF1F294DF700216F3A /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EE4DFE91F294DF700216F3A /* ViewController.swift in Sources */,
+				4EE4E0151F2A5DCD00216F3A /* PuzzleMapView.swift in Sources */,
 				4EE4DFE71F294DF700216F3A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,6 +522,7 @@
 				4EE4E00D1F294DF700216F3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EE4E00E1F294DF700216F3A /* Build configuration list for PBXNativeTarget "NurikabeTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +531,7 @@
 				4EE4E0101F294DF700216F3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EE4E0111F294DF700216F3A /* Build configuration list for PBXNativeTarget "NurikabeUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +540,7 @@
 				4EE4E0131F294DF700216F3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
