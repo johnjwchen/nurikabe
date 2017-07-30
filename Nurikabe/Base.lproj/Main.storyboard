@@ -30,10 +30,10 @@
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="rows">
-                                        <integer key="value" value="15"/>
+                                        <integer key="value" value="3"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="colums">
-                                        <integer key="value" value="10"/>
+                                        <integer key="value" value="2"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
                                         <real key="value" value="0.90000000000000002"/>
@@ -49,6 +49,9 @@
                             <constraint firstItem="LLJ-RQ-9K4" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="nZb-c4-H2o"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="puzzleMapView" destination="LLJ-RQ-9K4" id="BBo-eB-8df"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
