@@ -26,7 +26,6 @@ class MockTap: UITapGestureRecognizer {
 
 class MapViewTests: XCTestCase {
     
-    
     var viewController: ViewController! = nil
     var mapView: PuzzleMapView {
         get {
