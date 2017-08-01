@@ -15,6 +15,8 @@
 		4EE4DFFC1F294DF700216F3A /* NurikabeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE4DFFB1F294DF700216F3A /* NurikabeTests.swift */; };
 		4EE4E0071F294DF700216F3A /* NurikabeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE4E0061F294DF700216F3A /* NurikabeUITests.swift */; };
 		4EE4E0151F2A5DCD00216F3A /* PuzzleMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE4E0141F2A5DCD00216F3A /* PuzzleMapView.swift */; };
+		4EE4E0171F303E3600216F3A /* PuzzleMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE4E0141F2A5DCD00216F3A /* PuzzleMapView.swift */; };
+		4EE4E01C1F304B9B00216F3A /* MapViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE4E01B1F304B9B00216F3A /* MapViewTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		4EE4E0061F294DF700216F3A /* NurikabeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NurikabeUITests.swift; sourceTree = "<group>"; };
 		4EE4E0081F294DF700216F3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EE4E0141F2A5DCD00216F3A /* PuzzleMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PuzzleMapView.swift; sourceTree = "<group>"; };
+		4EE4E01B1F304B9B00216F3A /* MapViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				4EE4DFFB1F294DF700216F3A /* NurikabeTests.swift */,
+				4EE4E01B1F304B9B00216F3A /* MapViewTests.swift */,
 				4EE4DFFD1F294DF700216F3A /* Info.plist */,
 			);
 			path = NurikabeTests;
@@ -276,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EE4DFFC1F294DF700216F3A /* NurikabeTests.swift in Sources */,
+				4EE4E01C1F304B9B00216F3A /* MapViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EE4E0171F303E3600216F3A /* PuzzleMapView.swift in Sources */,
 				4EE4E0071F294DF700216F3A /* NurikabeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
